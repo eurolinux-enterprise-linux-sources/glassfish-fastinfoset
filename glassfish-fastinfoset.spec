@@ -1,6 +1,6 @@
 Name: glassfish-fastinfoset
 Version: 1.2.12
-Release: 8%{?dist}
+Release: 9%{?dist}
 Summary: Fast Infoset
 Group: Development/Libraries
 License: ASL 2.0
@@ -61,6 +61,9 @@ This package contains javadoc for %{name}.
 %files javadoc -f .mfiles-javadoc
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2.12-9
+- Mass rebuild 2013-12-27
+
 * Thu Oct 24 2013 Ade Lee <alee@redhat.com> 1.2.12-8
 - Resolves: rhbz#1017803 -  glassfish-fastinfoset: mock build failed on RHEL 7
 
